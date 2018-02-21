@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="iso-8859-1"  standalone="no"  ?>
+<!DOCTYPE page SYSTEM "entities.dtd" >
+<xpage:page xmlns="http://www.w3.org/1999/xhtml" xmlns:xpage="http://eprints.org/ep3/xpage" xmlns:epc="http://eprints.org/ep3/control">
+<xpage:head>
+  <link rel="alternate" type="application/rss+xml" title="Items in {phrase('archive_name')}" href="{$config{http_cgiurl}}/latest_tool?output=RSS2"></link>
+  <link rel="alternate" type="application/atom+xml" title="Items in {phrase('archive_name')}" href="{$config{http_cgiurl}}/latest_tool?output=Atom"></link>
+  <link rel="alternate" type="application/rdf+xml" title="Repository Summary RDF+XML" href="{$config{http_cgiurl}}/export/repository/RDFXML/devel.rdf"></link>
+  <link rel="alternate" type="text/n3" title="Repository Summary RDF+N3" href="{$config{http_cgiurl}}/export/repository/RDFN3/devel.n3"></link>
+</xpage:head>
+<xpage:title>Croeso i'r Gadwrfa Ymchwil</xpage:title>
+<xpage:body>
+
+<p>Mae Cadwrfa Ymchwil <a href="http://www.pcydds.ac.uk/cy/">Prifysgol Cymru Y Drindod Dewi Sant</a> yn cynnwys papurau ymchwil testun llawn, erthyglau cyfnodolion, penodau llyfrau a thraethodau ymchwil a ysgrifennir gan staff a myfyrwyr y Brifysgol, ac maent ar gael i’w llawrlwytho am ddim.  Mae Polisi Prifysgol yn annog ymchwilwyr i ddarparu eu gwaith ar-lein, am ddim i’r darllenydd, cyn gynted a phosibl ar ol cyhoeddi yn amodol ar briodoliad cywir ac unrhyw amodau a osodir gan y cyhoeddwr.</p>
+
+<div style="text-align: right">
+<span class="ep_search_feed"><a href="{$config{rel_cgipath}}/latest_tool?output=Atom"><img alt="[feed]" src="{$config{rel_path}}/style/images/feed-icon-14x14.png" border="0" /></a> <a href="{$config{rel_cgipath}}/latest_tool?output=Atom">Atom</a></span>
+<span class="ep_search_feed"><a href="{$config{rel_cgipath}}/latest_tool?output=RSS"><img alt="[feed]" src="{$config{rel_path}}/style/images/feed-icon-14x14.png" border="0" /></a> <a href="{$config{rel_cgipath}}/latest_tool?output=RSS">RSS 1.0</a></span>
+<span class="ep_search_feed"><a href="{$config{rel_cgipath}}/latest_tool?output=RSS2"><img alt="[feed]" src="{$config{rel_path}}/style/images/feed-icon-14x14.png" border="0" /></a> <a href="{$config{rel_cgipath}}/latest_tool?output=RSS2">RSS 2.0</a></span>
+</div>
+
+
+<div class="ep_toolbox" ><div class="ep_toolbox_content" >
+  <a href="{$config{perl_url}}/latest">Ychwanegiadau Diweddaraf</a><br /><br />
+ Gweld eitemau a ychwanegwyd at y gadwrfa yn yr wythnos flaenorol.  
+</div></div>
+
+<div class="ep_toolbox"><div class="ep_toolbox_content" >
+ <a href="{$config{perl_url}}/search/advanced">Chwilio'r Gadwrfa</a><br /><br />
+ Chwiliwch y Gadwrfa gan ddefnyddio ystod o feysydd. Defnyddiwch y maes chwilio ar ben y tudalen am chwiliad cyflym.
+</div></div>
+
+<div class="ep_toolbox"><div class="ep_toolbox_content" >
+ <a href="{$config{base_url}}/view/subjects/">Pori'r Gadwrfa</a><br /><br />
+ Pori'r eitemau yn y Gadwrfa yn ol pwnc.
+</div></div>
+
+<div class="ep_toolbox"><div class="ep_toolbox_content" >
+ <a href="{$config{base_url}}/information.html">Am y Gadwrfa hon</a><br /><br />
+ Mwy o wybodaeth am y safle hon.
+</div></div>
+
+<div class="ep_toolbox"><div class="ep_toolbox_content" >
+ <a href="{$config{base_url}}/policies.html">Polisiau'r Gadwrfa</a><br /><br />
+ Polisi defnyddio deunydd yn y gadwrfa hon.
+</div></div>
+
+<p>Ydych chi’n chwilio am ddata ymchwil? Ewch i borth <a href="http://researchdata.uwtsd.ac.uk">Data Ymchwil y Brifysgol</a>.</p>
+
+<p style="margin-top: 2em; font-size: 90%">
+<epc:phrase ref="archive_name" /> yn cefnogi <a href="http://www.openarchives.org"><abbr title="Open Archives Protocol for Metadata Harvesting v2.0">OAI 2.0</abbr></a> - <tt><epc:print expr="$config{perl_url}" />/oai2</tt>
+</p>
+
+</xpage:body>
+</xpage:page>

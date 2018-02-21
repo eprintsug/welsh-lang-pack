@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE page SYSTEM "entities.dtd" >
+<xpage:page xmlns="http://www.w3.org/1999/xhtml" xmlns:xpage="http://eprints.org/ep3/xpage" xmlns:epc="http://eprints.org/ep3/control">
+<xpage:title>Am y Gadwrfa</xpage:title>
+<xpage:body>
+
+<p>Croeso i Gadwrfa Ymchwil Prifysgol Cymru Y Drindod Dewi Sant.  Mae'r gadwrfa hon yn cynnwys erthyglau, papurau cynhadledd, traethodau ymchwil a gweithiau eraill a gyhoeddir gan staff a myfyrwyr y Brifysgol.  Gellir dod o hyd i wybodaeth ar Gyhoeddi Mynediad Agored, gan gynnwys manylion ar sut i ddodi eich gwaith, ar <a href="http://www.uwtsd.ac.uk/library/open-access/" target="blank">ein tudalennau gwe Mynediad Agored</a>.</p>
+
+<p>Pwerir y safle hon gan <a href="{$config{base_url}}/eprints/">EPrints 3</a>, meddalwedd am ddim a ddatblygwyd gan Brifysgol Southampton.</p>
+
+<h2>Manylion Cyswllt</h2>
+
+<p>Dylid anfon unrhyw ohebiaeth ynglŷn â’r gadwrfa benodol hon i <a href="mailto:repository@uwtsd.ac.uk">repository@uwtsd.ac.uk</a>.<br />
+Rheolir y Gadwrfa Ymchwil gan <a href="http://www.uwtsd.ac.uk/cy/llyfrgell/" target="blank">Lyfrgell ac Adnoddau Dysgu</a> a <a href="http://www.uwtsd.ac.uk/for-business/" target="blank">Gwasanaethau Ymchwil, Menter ac Arloesi.</a></p>
+<p><a href="http://www.uwtsd.ac.uk/cy/ymchwil/" target="blank">Mwy o wybodaeth am Ymchwil yn PCYDDS</a></p>
+<p><a href="/policies.html">Gweld ein Polisiau Cadwrfa</a></p>
+
+</xpage:body>
+</xpage:page>

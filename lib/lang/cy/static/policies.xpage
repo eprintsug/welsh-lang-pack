@@ -1,0 +1,93 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE page SYSTEM "entities.dtd" >
+<xpage:page xmlns="http://www.w3.org/1999/xhtml" xmlns:xpage="http://eprints.org/ep3/xpage" xmlns:epc="http://eprints.org/ep3/control">
+<xpage:title>Polisiau</xpage:title>
+<xpage:body>
+<h2>Polisi Metadata</h2> am wybodaeth sy'n disgrifio eitemau yn y gadwrfa
+<ol>
+  <li>Gall unrhyw un gael mynediad am ddim i'r metadata.</li>
+  <li>Gall y metadata gael ei ail-ddefnyddio mewn unrhyw gyfrwng heb ganiatâd blaenorol at ddibenion nid-er-elw a'i ail-werthu'n fasnachol os:
+    <ul>
+      <li>yw'r Dynodwr MAA neu ddolen i'r cofnod metadata gwreiddiol yn cael eu rhoi</li>
+      <li>crybwyllir y gadwrfa</li>
+    </ul>
+  </li>
+</ol>
+<h2>Polisi Data</h2> ar gyfer testun-llawn ac eitemau data llawn eraill
+<ol>
+  <li>Gall unrhyw un gael mynediad at eitemau llawn am ddim.</li>
+  <li>Gall copïau o eitemau llawn ar y cyfan:
+    <ul>
+      <li>gael eu hatgynhyrchu, arddangos neu eu perfformio, a'u rhoi i'r trydydd person mewn unrhyw fformat neu gyfrwng</li>
+      <li>fod ar gyfer ymchwil personol neu astudio, addysgol, neu ddibenion nid-er-elw heb ganiatâd ymlaen llaw neu dâl.</li>
+    </ul>
+  ar yr amod:
+    <ul>
+      <li> y rhoddir manylion yr awduron, teitl a manylion llyfryddiaethol llawn</li>
+      <li> y rhoddir hyperddolen a/neu LlAU ar gyfer y tudalen metadata gwreiddiol</li>
+      <li> ni newidir y cynnwys mewn unrhyw ffordd</li>
+    </ul>
+  </li>
+  <li> Ni ddylid gwerthu'n fasnachol eitemau llawn mewn unrhyw fformat neu gyfrwng heb ganiatâd ffurfiol deiliaid yr hawlfraint.</li>
+</ol>
+<h2>Polisi Cynnwys</h2> ar gyfer mathau o ddogfen a set ddata a ddelir
+<ol>
+  <li>Mae hon yn gadawrfa sefydliadol neu adrannol.</li>
+  <li>Mae'r gadwrfa yn dal pob math o ddeunyddiau ac eithrio: Gwrthrychau Dysgu</li>
+  <li>Gall yr eitemau a adneuir gynnwys:
+    <ul>
+      <li>fersiynau derbyniedig (drafftiau adolygu gan gymheiriaid terfynol awdur)</li>
+      <li>fersiynau cyhoeddedig (ffeiliau a grëwyd gan gyhoeddwr)</li>
+    </ul>
+  </li>
+  <li>Caiff eitemau eu tagio yn unigol gyda:
+    <ul>
+      <li>eu math fersiwn a dyddiad.</li>
+      <li>eu statws adolygu gan gymheiriaid.</li>
+      <li>eu statws cyhoeddi.</li>
+    </ul>
+  </li>
+  <li>Prif Ieithoedd: Saesneg; Cymraeg</li>
+</ol>
+<h2>Polisi Cyflwyno</h2> yn ymwneud ag adneuwyr, ansawdd a hawlfraint
+<ol>
+  <li>Gall eitemau gael eu hadneuo gan staff academaidd, myfyrwyr cofrestredig, a gweithwyr y sefydliad yn unig, neu eu hasiantau dirprwyedig.</li>
+  <li>Gall awduron yn unig gyflwyno eu gwaith eu hunain ar gyfer archifo.</li>
+  <li>Mae'n rhaid i adneuwyr cymwys adneuo metadata llyfryddiaethol am eu holl gyhoeddiadau.</li>
+  <li>Mae'r gweinyddwr yn gwirio eitemau ar gyfer cymhwyso awduron/adneuwyr, perthnasedd i faes y gadwrfa, gosodiad a fformat ddilys, ac i wahardd sbam</li>
+  <li>Mae dilysrwydd cynnwys gwaith a gyflwynir yn gyfrifoldeb llwyr yr adneuwr.</li>
+  <li>Gall eitemau gael eu hadneuo ar unrhyw adeg, ond ni chânt eu gwneud yn weladwy yn gyhoeddus nes bod unrhyw gyfnod gwahardd gyhoeddwyr neu gyllidwyr ddod i ben.</li>
+  <li>Mae unrhyw droseddau hawlfraint yn gyfrifoldeb yr awduron/adneuwyr yn llwyr.</li>
+</ol>
+<h2>Polisi Cadwraeth</h2>
+<ol>
+  <li>Caiff eitemau eu cadw am gyfnod amhenodol.</li>
+  <li>Ymdrecha'r  gadwrfa i sicrhau darllenadwyedd a hygyrchedd parhaus.
+    <ul>
+      <li>Efallai na fydd yn bosibl i warantu darllenadwyedd rhai fformatau ffeil anarferol.</li>
+    </ul>
+  </li>
+  <li>Mae'r gadwrfa yn gwneud copi wrth gefn o'i ffeiliau yn rheolaidd yn unol ag arfer gorau cyfredol.</li>
+  <li>Gellir dileu eitemau ar gais yr awdur/deilydd yr hawlfraint.</li>
+  <li>Mae rhesymau derbyniol dros ddileu yn cynnwys:
+    <ul>
+      <li>Rheolau cyhoeddwyr cyfnodolion</li>
+      <li>Tor-hawlfraint profedig neu lên-ladrad</li>
+      <li>Gofynion cyfreithiol a throseddau profedig</li>
+      <li>Diogelwch Cenedlaethol</li>
+      <li>Ymchwil a newidwyd yn dwyllodrus</li>
+      <li>Torri hawliau moesol neu eraill a ddiogelir gan y gyfraith (er enghraifft, triniaeth ddirmygus o waith, enllib, diogelu data, preifatrwydd)</li>
+    </ul>
+  </li>
+  <li>Ni ddileir eitemau a dynnir yn ôl fel y cyfryw, ond fe'u cedwir o olwg y cyhoedd. </li>
+  <li>Cedwir dynodwyr/LlAU eitemau a dynnwyd yn ôl am gyfnod amhenodol.</li>
+  <li>Os oes angen, gall fersiwn diweddaraf gael ei adneuo.
+    <ul>
+      <li>Gall y fersiwn cynharach gael ei dynnu'n ôl o olwg y cyhoedd.</li>
+      <li>Bydd LlAU parhaus yr eitem bob amser yn cysylltu i'r fersiwn diweddaraf.</li>
+    </ul>
+  </li>
+  <li>Dim polisi cau diffiniedig</li>
+</ol>
+</xpage:body>
+</xpage:page>

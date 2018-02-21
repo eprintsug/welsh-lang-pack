@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE phrases SYSTEM "entities.dtd">
+<epp:phrases xmlns="http://www.w3.org/1999/xhtml" xmlns:epp="http://eprints.org/ep3/phrase" xmlns:epc="http://eprints.org/ep3/control">
+
+  <!-- To override system phrases add them here -->
+
+<!--
+
+Notes:
+
+<epp:phrase id="the/phrase/id">New phrase content</epp:phrase>
+
+To include a pin:
+<epp:phrase id="the/phrase/id"><epc:pin name="the/pin/name" /></epp:phrase>
+
+To include one phrase in another:
+<epp:phrase id="the/phrase/id">Lorm ipssee <epc:phrase ref="another/phrase/id" /></epp:phrase>
+
+To completely replace one phrase with another:
+<epp:phrase id="the/phrase/id" ref="phrase/to/copy/id" />
+
+Phrases in this file will be over-ridden by zz_webcfg.xml which is modified via the web-based phrase editor.
+
+-->
+	<epp:phrase id="languages_typename_cy">Cymraeg</epp:phrase>
+<epp:phrase id="content_typename_draft">Fersiwn Bras</epp:phrase>
+	<epp:phrase id="content_typename_submitted">Fersiwn heb ei Dderbyn</epp:phrase>
+	<epp:phrase id="content_typename_accepted">Ferwin wedi ei Dderbyn</epp:phrase>
+	<epp:phrase id="content_typename_published">Fersiwn Cyhoeddedig</epp:phrase>
+	<epp:phrase id="content_typename_updated">Fersiwn wedi ei Ddiweddaru</epp:phrase>
+	<epp:phrase id="content_typename_supplemental">Defydd Atodol</epp:phrase>
+	<epp:phrase id="content_typename_presentation">Cyflwyniad</epp:phrase>
+	<epp:phrase id="content_typename_coverimage">Clawrlun</epp:phrase>
+	<epp:phrase id="content_typename_metadata">Metaddata Atodol</epp:phrase>
+	<epp:phrase id="content_typename_bibliography">Llyfryddiaeth</epp:phrase>
+	<epp:phrase id="content_typename_other">Arall</epp:phrase>
+  
+   <epp:phrase id="document_typename_text">Ysgrifenedig</epp:phrase>
+    <epp:phrase id="document_typename_slideshow">Sioe Sleidiau</epp:phrase>
+    <epp:phrase id="document_typename_image">Llun</epp:phrase>
+    <epp:phrase id="document_typename_audio">Sain</epp:phrase>
+    <epp:phrase id="document_typename_video">Fideo</epp:phrase>
+    <epp:phrase id="document_typename_archive">Archif</epp:phrase>
+    <epp:phrase id="document_typename_other">Arall</epp:phrase>
+
+    <epp:phrase id="security_typename_public">Unrhywun</epp:phrase>
+    <epp:phrase id="security_typename_validuser">Defnyddwyr cofreistredig yn unig</epp:phrase>
+    <epp:phrase id="security_typename_staffonly">Staff yn unig</epp:phrase>
+  
+  <epp:phrase id="eprint_fieldname_keywords">Allweddeiriau Rhydd</epp:phrase>
+    <epp:phrase id="eprint_fieldhelp_keywords">Termau iaith naturiol sydd yn disgrifio cynwys yr eitem</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_contributors">Cyfranadwyr</epp:phrase>
+    <epp:phrase id="eprint_fieldhelp_contributors"></epp:phrase>
+    <epp:phrase id="eprint_fieldname_contributors_type">Cyfraniad</epp:phrase>
+    <epp:phrase id="eprint_fieldname_contributors_id">E-Bost</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_creators">Creuwyr</epp:phrase>
+    <epp:phrase id="eprint_fieldname_editors">Golygyddon</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_corp_creators">Creuwyr Corfforeuthol</epp:phrase>
+    <epp:phrase id="eprint_fieldhelp_corp_creators">Cwmniau a gaiff ei cysidro fel awduron yr eitem yma.</epp:phrase>
+    
+	<epp:phrase id="eprint_fieldname_creators_name">Creuwyr</epp:phrase>
+  
+  <epp:phrase id="dynamic:logged_in">Mewngofnodwyd fel <epc:pin name="user"/> <epc:phrase ref="Plugin/Screen:tool_divide" /> 
+       <epc:pin name="tools" /> <epc:phrase ref="Plugin/Screen:tool_divide" /> <a href="{$config{http_cgiurl}}/logout">Allangofnodi</a> 
+    </epp:phrase>
+    <epp:phrase id="dynamic:not_logged_in"><a href="{$config{userhome}}">Mewngofnodi</a> <epc:phrase ref="Plugin/Screen:tool_divide" /> <a href="{$config{http_cgiurl}}/register">Create Account</a></epp:phrase>
+  
+    <epp:phrase id="eprint_fieldname_keywords">Allweddeiriau Rhydd</epp:phrase>
+    <epp:phrase id="eprint_fieldhelp_keywords">Termau iaith naturiol sydd yn disgrifio cynwys yr eitem</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_contributors">Cyfranadwyr</epp:phrase>
+    <epp:phrase id="eprint_fieldhelp_contributors"></epp:phrase>
+    <epp:phrase id="eprint_fieldname_contributors_type">Cyfraniad</epp:phrase>
+    <epp:phrase id="eprint_fieldname_contributors_id">E-Bost</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_creators">Creuwyr</epp:phrase>
+    <epp:phrase id="eprint_fieldname_editors">Golygyddon</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_corp_creators">Creuwyr Corfforeuthol</epp:phrase>
+    <epp:phrase id="eprint_fieldhelp_corp_creators">Cwmniau a gaiff ei cysidro fel awduron yr eitem yma.</epp:phrase>
+    
+	<epp:phrase id="eprint_fieldname_creators_name">Creuwyr</epp:phrase>
+
+<epp:phrase id="eprint_fieldname_publication">Teitl y Cylchgrawn neu Gyhoeddiad</epp:phrase>
+    <epp:phrase id="eprint_fieldhelp_publication">Teitl y Cylchgrawn neu Gyhoeddiad.
+<br/>Engraifft:  <span class="ep_form_example">Beibl</span>
+</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_publisher">Cyhoeddwr</epp:phrase>
+  
+  <epp:phrase id="eprint_fieldname_editors_name">Golygyddion</epp:phrase>
+    <epp:phrase id="eprint_fieldhelp_editors_name">Dynodwch enwau'r golygyddion.<br/>
+Rhaid cael hwn os nad oes creuwyr wedi ei dynodi.
+</epp:phrase>
+    <epp:phrase id="eprint_fieldname_editors_id">E-Bost</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_date">Dyddiad</epp:phrase>
+    <epp:phrase id="eprint_fieldhelp_date">Dyddiad caeth ye ePrint yma ei gyhoeddi, argymell i'r wasg, gyhoeddi neu argymell am Ph.D.</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_number">Rhif</epp:phrase>
+    <epp:phrase id="eprint_fieldhelp_number">Rhif y cylchgrawn mae'r eitem yn ymddangos ynddo.</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_id_number">Rhif Dynodi</epp:phrase>
+    <epp:phrase id="eprint_fieldhelp_id_number">Rhif dynodi yr eitem new DOI.</epp:phrase>
+    <epp:phrase id="eprint_fieldhelp_id_number.patent">Rhif cais y freinlen.</epp:phrase>
+    
+  <epp:phrase id="eprint_fieldname_ispublished">Statws</epp:phrase>
+    <epp:phrase id="eprint_fieldhelp_ispublished">Danghoswch os yw'r eitem wedi ei gyhoeddi, ar ganol cael ei gyhoeddi (<strong>yn y wasg</strong>), neu heb ei gyhoeddi o'r blaen.</epp:phrase>
+    <epp:phrase id="eprint_fieldopt_ispublished_unpub">Heb ei Gyhoeddi</epp:phrase>
+    <epp:phrase id="eprint_fieldopt_ispublished_submitted">Wedi ei Argywell</epp:phrase>
+    <epp:phrase id="eprint_fieldopt_ispublished_inpress">Yn y Wasg</epp:phrase>
+    <epp:phrase id="eprint_fieldopt_ispublished_pub">Cyhoeddedig</epp:phrase>
+
+
+    <epp:phrase id="eprint_fieldname_refereed">Dyfarnedig</epp:phrase>
+    <epp:phrase id="eprint_fieldhelp_refereed">Danghoswch os yw'r fersiwn yma wedi cael ei ddyfarnu.</epp:phrase>
+    <epp:phrase id="eprint_radio_refereed"><label><epc:pin name="true"/>Ydi, mae'r fersiwn yma wedi ei ddyfarnu.</label><br/><label><epc:pin name="false"/>Na, nid yw'r fersiwn yma wedi ei ddyfarnu.</label></epp:phrase>
+  
+   <epp:phrase id="eprint_fieldname_subjects">Pynciau</epp:phrase>
+    <epp:phrase id="eprint_fieldhelp_subjects">Dynodwch un neu fwy o bynciau or rhestr isod..</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_note">Gwybodaeth Atodol</epp:phrase>
+    <epp:phrase id="eprint_fieldhelp_note">Gwybodaeth arall a gaiff ei ddangos ar y cronodeb a gaiff ei weld gan y cyhoedd.</epp:phrase>
+  
+  <epp:phrase id="eprint_fieldname_department">Adran</epp:phrase>
+    <epp:phrase id="eprint_fieldhelp_department">Adran o ble ddaeth yr eitem.
+<br/>Example: <span class="ep_form_example">Adran Addysg</span>
+</epp:phrase>
+  
+  <epp:phrase id="eprint_fieldname_full_text_status">Statws Dogfen Lawn</epp:phrase>
+    <epp:phrase id="eprint_fieldhelp_full_text_status"></epp:phrase>
+    <epp:phrase id="eprint_fieldopt_full_text_status_public">Agored</epp:phrase>
+    <epp:phrase id="eprint_fieldopt_full_text_status_none">Dim</epp:phrase>
+    <epp:phrase id="eprint_fieldopt_full_text_status_restricted">Cauedig</epp:phrase>
+  
+  <epp:phrase id="eprint_fieldname_divisions">Adran</epp:phrase>
+    <epp:phrase id="eprint_fieldhelp_divisions">Adrannau y dylai yr eitem gael ei gysylltu.</epp:phrase>
+  
+  <epp:phrase id="ordername_eprint_byyear">fesul blwyddyn (mwyaf diweddar yn gyntaf)</epp:phrase>
+    <epp:phrase id="ordername_eprint_byyearoldest">fesul blwyddyn (hen yn gyntaf)</epp:phrase>
+    <epp:phrase id="ordername_eprint_byname">fesul enw'r awdur</epp:phrase>
+    <epp:phrase id="ordername_eprint_bytitle">fesul teitl</epp:phrase>
+
+    <epp:phrase id="ordername_eprint_bytitlerev">fesul teitl (olaf yn gyntaf0</epp:phrase>
+    <epp:phrase id="ordername_eprint_bystatuschanged">fesul newid statws (diweddaraf yn gyntaf)</epp:phrase>
+    <epp:phrase id="ordername_eprint_bystatuschangedoldest">fesul newid statws (hen yn gyntaf)</epp:phrase>
+  
+  <epp:phrase id="eprint_typename_book">Llyfr</epp:phrase>
+    <epp:phrase id="eprint_optdetails_type_book">Llyfr neu gyfrol cynhadledd.</epp:phrase>
+
+    <epp:phrase id="eprint_typename_book_section">Rhan o Lyfr</epp:phrase>
+    <epp:phrase id="eprint_optdetails_type_book_section">Penod neu ran o lyfr.</epp:phrase>
+
+    <epp:phrase id="eprint_typename_article">Erthygl</epp:phrase>
+    <epp:phrase id="eprint_optdetails_type_article">Erthygl mewn cyfnodolyn, cyllgrawn neu bapur newydd. Gall fod yn electroneg yn unig, megis cyfnodolyn ar-lein neu safle we newyddion. Gall fod heb adolygiad gan gyfoedion.</epp:phrase>
+
+    <epp:phrase id="eprint_typename_conference_item">Eitem Gynhadledd neu Weithdy</epp:phrase>
+    <epp:phrase id="eprint_optdetails_type_conference_item">Erthygl, poster, araith, darlith neu gyflwyniad mewn cynhadledd, gweithdy neu achlysur arall. Os yw'r eitem wedi ei gyhoeddi mewn cyfnodolyn new lyfr yna dewiswch "Rhan o Lyf" new "Erthygl" yn hytrach.</epp:phrase>
+  
+  <epp:phrase id="eprint_typename_thesis">Gosodiad</epp:phrase>
+    <epp:phrase id="eprint_optdetails_type_thesis">Gosodiad neu draethawd.</epp:phrase>
+
+    <epp:phrase id="eprint_typename_patent">Breinlen</epp:phrase>
+    <epp:phrase id="eprint_optdetails_type_patent">Breinlen cofreistredig. <em>Peidiwch</em> a dangos breinlen sydd heb ei gyhoeddi eto.</epp:phrase>
+
+    <epp:phrase id="eprint_typename_other">Arall</epp:phrase>
+    <epp:phrase id="eprint_optdetails_type_other">Rhywbeth arall nad oes categori iddo.</epp:phrase>
+  
+  <epp:phrase id="page:nofulltext">Nid yw ysgrif llawn ar gael o'r ystorfa yma.</epp:phrase>
+    <epp:phrase id="page:abstract">Crynodeb</epp:phrase>
+    <epp:phrase id="page:deposited_by">Dyddodiad gan</epp:phrase>
+    <epp:phrase id="page:deposited_on">Dyddiad Dyddodi</epp:phrase>
+    <epp:phrase id="page:id_code">ID Code</epp:phrase>
+    <epp:phrase id="page:invalid_user">DEFNYDDWIR ANNILYS</epp:phrase>
+    <epp:phrase id="page:latest_version"><p><em>Dyma fersiwn diweddaraf o'r eitem yma.</em></p></epp:phrase>
+    <epp:phrase id="page:not_latest_version">Mae fersiwn <epc:pin name="link">mwy diweddar</epc:pin> ar gael.</epp:phrase>
+    <epp:phrase id="page:available_versions"><h3>Fersiynnau ar gael or Eitem Yma</h3></epp:phrase>
+  
+  <epp:phrase id="page:abstract_intro"><h3>Dyma sut bydd crynodeb o'r metaddata yn edrych:</h3></epp:phrase>
+    <epp:phrase id="page:allfields_intro"><h3>Dyma gynwys llawn yr eitem yma:</h3></epp:phrase>
+    <epp:phrase id="page:suggestions_intro"><h3>Fe wnaeth y defnyddiwr dyddodi y sylwadau canlynol:</h3></epp:phrase>
+    <epp:phrase id="page:alert">Rhybydd</epp:phrase>
+    <epp:phrase id="page:edit_link">Staff Ystorfa Yn Unig: <epc:pin name="link">Tudalen Rheoli Eitem</epc:pin></epp:phrase>
+  
+  <epp:phrase id="page:item_not_available"> Eitem ddim ar gael o'r ystorfa yma.</epp:phrase>
+    <epp:phrase id="page:item_restricted"> Fe all yr eitem fod yn gyfyngedig.</epp:phrase>
+    <epp:phrase id="page:more">mwy...</epp:phrase>
+  
+  <epp:phrase id="lib/searchexpression:least_one">Rhaid nodi rhywbeth mewn un blwch neu fwy!</epp:phrase>
+    <epp:phrase id="lib/searchexpression:any">unrhyw un or amodau</epp:phrase>
+    <epp:phrase id="lib/searchexpression:all">pob un or amodau yma</epp:phrase>
+    <epp:phrase id="lib/searchexpression:must_fulfill">Rhaid i'r cofnodau adferedig gyflawni</epp:phrase>
+    <epp:phrase id="lib/searchexpression:order_results">Trefn canlyniadau</epp:phrase>
+    <epp:phrase id="lib/searchexpression:action_search">Ymchwiliad</epp:phrase>
+    <epp:phrase id="lib/searchexpression:action_filter">Hidlo</epp:phrase>
+    <epp:phrase id="lib/searchexpression:action_reset">Ailosod y ffurflen</epp:phrase>
+    <epp:phrase id="lib/searchexpression:action_newsearch">Ail-ddechrau Ymchwiliad</epp:phrase>
+    <epp:phrase id="lib/searchexpression:action_update">Diweddaru yr archwiliad</epp:phrase>
+    <epp:phrase id="lib/searchexpression:form_problem"><p>Mae yna broblem gyda'r ffurflen yma:</p></epp:phrase>
+    <epp:phrase id="lib/searchexpression:results_for">Results for <epc:pin name="title"/></epp:phrase>
+    <epp:phrase id="lib/searchexpression:results">Arddangos canlyniadau  <epc:pin name="from"/> i <epc:pin name="to"/> o <epc:pin name="n"/>.</epp:phrase>
+	<epp:phrase id="lib/searchexpression:results_page_size">Arddangos <epc:pin name="n_10"/>, <epc:pin name="n_25"/> neu <epc:pin name="n_100"/> canlyniad y dudale.</epp:phrase>
+    <epp:phrase id="lib/searchexpression:search_time">Hyd Archiliad: <epc:pin name="searchtime"/>eiliad.</epp:phrase>
+    <epp:phrase id="lib/searchexpression:noresults">Nid oes dim yn gweddu i'r ymchwiliad yma.</epp:phrase>
+  
+  <epp:phrase id="lib/searchexpression:export_button">Allforio</epp:phrase>
+    <epp:phrase id="lib/searchexpression:reorder_button">Aildrefnu</epp:phrase>
+  <epp:phrase id="lib/searchexpression:new">Ymchwiliad Newydd</epp:phrase>
+    <epp:phrase id="lib/searchexpression:refine">Cywiro Ymchwiliad</epp:phrase>
+  <epp:phrase id="lib/searchexpression:savesearch">Cadw Ymchwiliad</epp:phrase>
+  
+  <epp:phrase id="lib/searchfield:bool_nopref">Dim dewis</epp:phrase>
+    <epp:phrase id="lib/searchfield:bool_yes">Ie</epp:phrase>
+    <epp:phrase id="lib/searchfield:bool_no">Nage</epp:phrase>
+    <epp:phrase id="lib/searchfield:set_any">Unrhyw un o'r rhai yma</epp:phrase>
+    <epp:phrase id="lib/searchfield:set_all">Pob un o'r rhai yma</epp:phrase>
+    <epp:phrase id="lib/searchfield:text_any">Unrhyw un o</epp:phrase>
+    <epp:phrase id="lib/searchfield:text_all">Pob un o</epp:phrase>
+    <epp:phrase id="lib/searchfield:desc_is"><epc:pin name="name"/> yn <epc:pin name="value"/></epp:phrase>
+    <epp:phrase id="lib/searchfield:desc_true"><epc:pin name="name"/></epp:phrase>
+    <epp:phrase id="lib/searchfield:desc_false"><b>NOT</b> <epc:pin name="name"/></epp:phrase>
+    <epp:phrase id="lib/searchfield:desc_any_in"><epc:pin name="name"/> cydweddu gya unrhyw un o <epc:pin name="value"/></epp:phrase>
+    <epp:phrase id="lib/searchfield:desc_all_in"><epc:pin name="name"/> cydweddu <epc:pin name="value"/></epp:phrase>
+
+	<epp:phrase id="lib/searchfield:desc:between">between <epc:pin name="from"/> and <epc:pin name="to"/> inclusive</epp:phrase>
+	<epp:phrase id="lib/searchfield:desc:orless"><epc:pin name="to"/> neu lai</epp:phrase>
+	<epp:phrase id="lib/searchfield:desc:ormore"><epc:pin name="from"/> neu fwy</epp:phrase>
+  
+  <epp:phrase id="lib/searchfield:desc_ignored"> (Diystyru: <epc:pin name="list"/>)</epp:phrase>
+
+    <epp:phrase id="searchfield_name_q">Eitem</epp:phrase>
+    <epp:phrase id="lib/searchfield:n_more_values">... (<epc:pin name='n' /> heb ei ddangos)</epp:phrase>
+  
+ <epp:phrase id="cgi/users/edit_eprint:status">Statws Eitem</epp:phrase>
+    <epp:phrase id="cgi/users/edit_eprint:description">Disgrifiad</epp:phrase>
+    <epp:phrase id="cgi/users/edit_eprint:actions">Gweithrediadau</epp:phrase>
+    <epp:phrase id="cgi/users/edit_eprint:views">Golwg</epp:phrase>
+    <epp:phrase id="cgi/users/edit_eprint:edit">Golygu</epp:phrase> 
+  
+    <epp:phrase id="cgi/advsearch:adv_search">Ymchwiliad Uwchraddol</epp:phrase>
+    <epp:phrase id="cgi/advsearch:preamble"><p>Gadewch yr eitemau nad ydych eisiau yn wag. <a href="simple">Cliciwch yma am ymchwiliad syml.</a></p></epp:phrase>
+  
+  <epp:phrase id="cgi/search:simple_search">Archwiliad Syml</epp:phrase>
+  
+  <epp:phrase id="bin/generate_views:indextitleprefix">Pori fesul </epp:phrase>
+    <epp:phrase id="bin/generate_views:indextitle"><epc:phrase ref="bin/generate_views:indextitleprefix" /><epc:pin name="viewname"/></epp:phrase>
+    <epp:phrase id="bin/generate_views:title"><epc:pin name="viewname"/>: <epc:pin name="value"/></epp:phrase>
+    <epp:phrase id="bin/generate_views:intro"><div class="ep_view_intro">Dewiswch o'r rhestr isod.</div></epp:phrase>
+    <epp:phrase id="bin/generate_views:blurb"><div class="ep_view_blurb">Nifer o eitemau: <strong><epc:pin name="n"/></strong>.</div></epp:phrase>
+    <epp:phrase id="bin/generate_views:subject_blurb"><div class="ep_view_blurb">Nifer o eitemau un y lefel yma: <strong><epc:pin name="n"/></strong>.</div></epp:phrase>
+    <epp:phrase id="bin/generate_views:browsetitle">Pori Eitemaus</epp:phrase>
+    <epp:phrase id="bin/generate_views:browseintro"><div class="ep_view_browse_intro">Gall Eitemau gael ei pori fesul y canlynol:</div></epp:phrase>
+    <epp:phrase id="bin/generate_views:timestamp"><div class="ep_view_timestamp">Fe gaeth y rhestr yma ei greu ar <strong><epc:pin name="time"/></strong>.</div></epp:phrase>
+  
+  <epp:phrase id="Update/Views:group_by"><div class="ep_view_group_by">Casglu fesul: <epc:pin name="groups" /></div></epp:phrase>
+    <epp:phrase id="Update/Views:current_group"><span class="ep_view_group_by_current"><epc:pin name="group" /></span></epp:phrase>
+    <epp:phrase id="Update/Views:group_seperator"> | </epp:phrase>
+    <epp:phrase id="Update/Views:no_grouping">Dim Casglu</epp:phrase>
+    <epp:phrase id="Update/Views:no_grouping_title">Dim</epp:phrase>
+    <epp:phrase id="Update/Views:jump_to"><div class="ep_view_jump_to">Neidio i: <epc:pin name="jumps" /></div></epp:phrase>
+    <epp:phrase id="Update/Views:jump_seperator"> | </epp:phrase>
+    <epp:phrase id="Update/Views:up_a_level"><table><tr><td><epc:pin name="url"><img src="{$config{rel_path}}/style/images/multi_up.png" border='0' /></epc:pin></td><td><epc:pin name="url">I fyny un lefel</epc:pin></td></tr></table></epp:phrase>
+    <epp:phrase id="Update/Views:no_items"><p>Dim eitemau yn a rhan yma.</p></epp:phrase>
+  
+  <epp:phrase id="Update/Views:export_section">
+<table width="100%"><tr>
+  <td align="left">Allforio fel <epc:pin name="menu"/><epc:pin name="button"/></td>
+  <td align="right"><epc:pin name="feeds"/></td>
+</tr>
+<tr>
+  <td align="left" colspan="2">
+    <epc:pin name="tools"/>
+  </td>
+</tr>
+</table>
+
+</epp:phrase>
+  
+   <epp:phrase id="eprint_fieldname_eprintid">Rhif Eitem</epp:phrase>
+    <epp:phrase id="eprint_fieldname_rev_number">Rhif Cywiriad</epp:phrase>
+    <epp:phrase id="eprint_fieldname_eprint_status">Statws Eitem</epp:phrase>
+    <epp:phrase id="eprint_fieldopt_eprint_status_buffer">Dan Adolygiad</epp:phrase>
+    <epp:phrase id="eprint_fieldopt_eprint_status_inbox">Gweithle Defnyddiwr</epp:phrase>
+    <epp:phrase id="eprint_fieldopt_eprint_status_deletion">Wedi ei Ymneilltuo</epp:phrase>
+    <epp:phrase id="eprint_fieldopt_eprint_status_archive">Archif Byw</epp:phrase>
+    <epp:phrase id="eprint_fieldname_userid">Defnyddiwr Dyddodi</epp:phrase>
+    <epp:phrase id="eprint_fieldname_importid">Casgliad Mewnfori</epp:phrase>
+    <epp:phrase id="eprint_fieldname_source_id">Rhif Dynodi Tarddle</epp:phrase>
+    <epp:phrase id="eprint_fieldname_contributors_name">Enw</epp:phrase>
+    <epp:phrase id="eprint_fieldname_source">Tarddle</epp:phrase>
+    <epp:phrase id="eprint_fieldname_dir">Cyfeirlyfr</epp:phrase>
+    <epp:phrase id="eprint_fieldname_datestamp">Dyddiad Dyddodi</epp:phrase>
+    <epp:phrase id="eprint_fieldname_lastmod">Dyddiad Addasu</epp:phrase>
+    <epp:phrase id="eprint_fieldname_status_changed">Dyddiad Newid Statws</epp:phrase>
+    <epp:phrase id="eprint_fieldname_type">Math Eitem</epp:phrase>
+    <epp:phrase id="eprint_fieldhelp_type">Dewiswch y math mwyaf addas ar gyfer eich dyddodiad.</epp:phrase>
+    <epp:phrase id="eprint_fieldname_succeeds">Fersiwn diweddarach o</epp:phrase>
+    <epp:phrase id="eprint_fieldhelp_succeeds">Os yw'r eitem yma yn fersiwn diweddarach o ddogfen arall yn yr ystorfa, rhowch ei Rif yn y blwch.</epp:phrase>
+    <epp:phrase id="eprint_fieldname_commentary">Sylwebaeth ar</epp:phrase>
+    <epp:phrase id="eprint_fieldhelp_commentary">Os yw'r witem yn sylwebaeth ar eitem arall (neu atebiad yr awdur i'r sylwebaeth) yn yr ystorfa, rhowch ei Rif yn y blwch.</epp:phrase>
+    <epp:phrase id="eprint_fieldname_replacedby">Disodli gan</epp:phrase>
+    <epp:phrase id="eprint_fieldname_fileinfo">Cyswllt i ffeiliau</epp:phrase>
+    <epp:phrase id="eprint_fieldname_metadata_visibility">Gwelededd Metaddata</epp:phrase>
+    <epp:phrase id="eprint_fieldhelp_metadata_visibility">Gwelededd Metaddata</epp:phrase>
+    <epp:phrase id="eprint_fieldopt_metadata_visibility_show">Dangos bob Amser</epp:phrase>
+    <epp:phrase id="eprint_fieldopt_metadata_visibility_no_search">Cuddio yng Nghanlyniad Archwilio</epp:phrase>
+    <epp:phrase id="eprint_fieldname_latitude">Lledred</epp:phrase>
+    <epp:phrase id="eprint_fieldname_longitude">Hydred</epp:phrase>
+    <epp:phrase id="eprint_fieldhelp_latitude">Lledred yr eitem. Rhifau llai na dim yn dynodi i'r De.</epp:phrase>
+    <epp:phrase id="eprint_fieldhelp_longitude">Hydred yr eitem. Rhifau llay na dim yn dynodi i'r Gorllewin</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_relation">Perthynasau</epp:phrase>
+    <epp:phrase id="eprint_fieldhelp_relation">Dengus hwn berthynas yr eitem hwn i eitemau eraill. (e.e. URI)</epp:phrase>
+    <epp:phrase id="eprint_fieldname_relation_uri">Rhif Dynodi Targed</epp:phrase>
+    <epp:phrase id="eprint_fieldname_relation_type">Math Perthynas</epp:phrase>
+    <epp:phrase id="eprint_fieldname_item_issues">Cyhoeddiadau</epp:phrase>
+    <epp:phrase id="eprint_fieldname_item_issues_id">Rhif Cyhoeddiad</epp:phrase>
+    <epp:phrase id="eprint_fieldname_item_issues_type">Math Cyhoeddiad</epp:phrase>
+    <epp:phrase id="eprint_fieldname_item_issues_description">Disgrifiad</epp:phrase>
+    <epp:phrase id="eprint_fieldname_item_issues_timestamp">Stamp Amser</epp:phrase>
+    <epp:phrase id="eprint_fieldname_item_issues_status">Statws</epp:phrase>
+    <epp:phrase id="eprint_fieldname_item_issues_reported_by">Adroddiad gan</epp:phrase>
+    <epp:phrase id="eprint_fieldname_item_issues_resolved_by">Datrysiad gan</epp:phrase>
+    <epp:phrase id="eprint_fieldname_item_issues_comment">Sylwadau</epp:phrase>
+    <epp:phrase id="eprint_fieldopt_item_issues_status_discovered">Hunan Ddarganfodiad</epp:phrase>
+    <epp:phrase id="eprint_fieldopt_item_issues_status_ignored">Ignored</epp:phrase>
+    <epp:phrase id="eprint_fieldopt_item_issues_status_autoresolved">Hunan Ddatrysiad</epp:phrase>
+    <epp:phrase id="eprint_fieldopt_item_issues_status_reported">Adroddiadwyd</epp:phrase>
+    <epp:phrase id="eprint_fieldopt_item_issues_status_resolved">Wedi ei Ddatrys</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_edit_lock">Ar Glo</epp:phrase>
+    <epp:phrase id="eprint_fieldname_edit_lock_user">Ar Glo gan</epp:phrase>
+    <epp:phrase id="eprint_fieldname_edit_lock_since">Ar Glo ers</epp:phrase>
+    <epp:phrase id="eprint_fieldname_edit_lock_until">Ar Glo tan</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_item_issues_count">Nifer y Cyhoeddiadau</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname__fulltext_">Ysgrif Llawn</epp:phrase>
+    <epp:phrase id="eprint_fieldname_documents">Dogfennau</epp:phrase>
+  
+  <epp:phrase id="eprint_fieldname_files">Ffeiliau</epp:phrase>
+   <epp:phrase id="Plugin/Screen/EPrint/Export:title">Allforio</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/Staff/Export:title">Allforio</epp:phrase>
+  
+   <epp:phrase id="viewname_eprint_person">Person</epp:phrase>
+
+     <epp:phrase id="viewname_eprint_status">Statws</epp:phrase>
+
+     <epp:phrase id="viewname_eprint_subjects">Pwnc</epp:phrase>
+     <!--<epp:phrase id="viewtitle_eprint_subjects_menu_1">Browse by Subject and Year</epp:phrase>-->
+     <epp:phrase id="viewtitle_eprint_subjects_menu_2">Pori fesul Blwyddyn pan fo'r Pwnc yn "<epc:pin name="value1" />"</epp:phrase>
+     <!--<epp:phrase id="viewtitle_eprint_subjects_list">Items where Subject is "<epc:pin name="value1" />" and Year is <epc:pin name="value2" /></epp:phrase>-->
+     <epp:phrase id="viewtitle_eprint_subjects_list">Eitemau ble mae'r Pwnc yn "<epc:pin name="value1" />"</epp:phrase>
+
+     <epp:phrase id="viewname_eprint_year">Blwyddyn</epp:phrase>
+     <epp:phrase id="viewtitle_eprint_year_menu_1">Pori fesul Blwyddyn</epp:phrase>
+     <epp:phrase id="viewtitle_eprint_year_list">Eitemau ble mae'r Flwyddyn yn <epc:pin name="value1" /></epp:phrase>
+     <epp:phrase id="viewnull_eprint_year">Heb ei nodi</epp:phrase>
+
+     <epp:phrase id="viewname_eprint_types">Math</epp:phrase>
+
+     <epp:phrase id="viewname_eprint_divisions">Adran</epp:phrase>
+     <epp:phrase id="viewtitle_eprint_divisions_menu_1">Pori fesul Adrean a Blwyddyn</epp:phrase>
+     <epp:phrase id="viewtitle_eprint_divisions_menu_2">Pori fesul Blwyddyn ble mae'r Adran yn "<epc:pin name="value1" />"</epp:phrase>
+     <epp:phrase id="viewtitle_eprint_divisions_list">Eitemau ble mae'r Adran yn "<epc:pin name="value1" />" and Year is <epc:pin name="value2" /></epp:phrase>
+
+     <epp:phrase id="viewname_eprint_creators">Awdur</epp:phrase>
+     <epp:phrase id="viewtitle_eprint_creators_menu_1">Pori fesul Awdur</epp:phrase>
+     <epp:phrase id="viewtitle_eprint_creators_list">Eitemau ble mae'r Awdur yn "<epc:pin name="value1" />"</epp:phrase>
+
+
+
+    <epp:phrase id="warnings:no_documents">Nid ydych wedi <span class="ep_problem_field:documents">uwchlwytho unrhyw ddpgfen</span>. Nid yw'n angenrheidiol gwneud, ond mae gwneud yn cael ei gymeradwo'n gryf.</epp:phrase>
+  
+  <epp:phrase id="import_fieldname_datestamp">Dyddiad</epp:phrase>
+  <epp:phrase id="import_fieldname_description">Disgrifiad</epp:phrase>
+  
+  <epp:phrase id="template/navigation:home">Adref</epp:phrase>
+	<epp:phrase id="template/navigation:about">Ynglyn a'r Safle</epp:phrase>
+	<epp:phrase id="template/navigation:browse">Pori'r Dogfennau</epp:phrase>
+	<epp:phrase id="template:about_eprints"><div>Mae <epc:phrase ref="archive_name" /> yn cael ei redeg gan <em><a href="http://eprints.org/software/">EPrints 3</a></em> a gafodd ei ysgrifenny gan <a href="http://www.ecs.soton.ac.uk/">Ysgol Gwyddoniaeth Electroneg a Cyfrifiadureg</a> Prifysgol Southampton. <a href="{$config{http_url}}/eprints/">Mwy o wybodaeth</a>.</div></epp:phrase>
+  
+  <epp:phrase id="epm_fieldname_creators">Crewyr</epp:phrase>
+	<epp:phrase id="epm_fieldhelp_creators"></epp:phrase>
+	<epp:phrase id="epm_fieldname_creators_id">E-Bost</epp:phrase>
+	<epp:phrase id="epm_fieldhelp_creators_id"></epp:phrase>
+	<epp:phrase id="epm_fieldname_title">Teitl</epp:phrase>
+	<epp:phrase id="epm_fieldhelp_title"></epp:phrase>
+	<epp:phrase id="epm_fieldname_description">Disgrifiad</epp:phrase>
+	<epp:phrase id="epm_fieldhelp_description"></epp:phrase>
+	<epp:phrase id="epm_fieldname_version">Fersiwn</epp:phrase>
+	<epp:phrase id="epm_fieldhelp_version">Rhaid bod yn a ffurf x.y.z</epp:phrase>
+	<epp:phrase id="epm_fieldname_controller">Sgrin Rheoli</epp:phrase>
+	<epp:phrase id="epm_fieldhelp_controller"></epp:phrase>
+	<epp:phrase id="epm_fieldname_requirements">Gofynion</epp:phrase>
+	<epp:phrase id="epm_fieldhelp_requirements"></epp:phrase>
+	<epp:phrase id="epm_fieldname_home_page">Adref</epp:phrase>
+  
+  
+</epp:phrases>
+
+
